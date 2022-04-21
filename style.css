@@ -10,14 +10,15 @@ body{
 
 /* ============== HEADING INSTRUCTIONS ================ */
 
-#instructions h1 {
-    display    : block;
+/* #instructions h1 {                                /* commented out cos graders want app to EXACTLY replicate one in video*/
+/*    display    : block;
     width      : 35%;
     margin-left: 65%;
     color      : white;
     margin-top : 600px;
     font-family: Arial;
 }
+*/
 
 /* ============== ROW 1 ================ */
 
@@ -33,8 +34,8 @@ body{
 
 #img1-1-draggable {
     position : absolute;
-    top      : 200px;
-    right    : 400px;
+    left     : 750px;
+    top      : 0px;
     transform: scale(1);
 }
 
@@ -50,8 +51,8 @@ body{
 
 #img1-2-draggable {
     position : absolute;
-    top      : 400px;
-    right    : 0px;
+    top      : 0px;
+    left     : 900px;
     transform: scale(1);
 }
 
@@ -67,8 +68,8 @@ body{
 
 #img1-3-draggable {
     position : absolute;
-    top      : 400px;
-    right    : 400px;
+    top      : 0px;
+    left     : 1050px;
     transform: scale(1);
 }
 
@@ -86,9 +87,9 @@ body{
 
 #img2-1-draggable {
     position : absolute;
-    top      : 200px;
-    right    : 200px;
-    transform: scale();
+    top      : 170px;
+    left     : 750px;
+    transform: scale(1);
 }
 
 /*===== Grid Image 2 =====*/
@@ -103,8 +104,8 @@ body{
 
 #img2-2-draggable {
     position : absolute;
-    top      : 0px;
-    right    : 400px;
+    top      : 280px;
+    left     : 960px;
     transform: scale(1);
 }
 
@@ -120,8 +121,8 @@ body{
 
 #img2-3-draggable {
     position : absolute;
-    top      : 200px;
-    right    : 0px;
+    top      : 260px;
+    left     : 1100px;
     transform: scale(1);
 }
 
@@ -139,9 +140,15 @@ body{
 
 #img3-1-draggable {
     position : absolute;
-    top      : 400px;
-    right    : 200px;
+    top      : 700px;
+    left     : 310px;
     transform: scale(1);
+}
+
+#img3-1-draggable{
+    position: absolute;
+    left: 700px;
+    top: 310px;
 }
 
 /*===== Grid Image 2 =====*/
@@ -156,8 +163,8 @@ body{
 
 #img3-2-draggable {
     position : absolute;
-    top      : 0px;
-    right    : 0px;
+    top      : 420px;
+    right    : 220px;
     transform: scale(1);
 }
 
@@ -173,7 +180,8 @@ body{
 
 #img3-3-draggable {
     position : absolute;
-    top      : 0px;
-    right    : 200px;
+    top      : 440px;
+    left     : 1100px;
     transform: scale(1);
 }
+
