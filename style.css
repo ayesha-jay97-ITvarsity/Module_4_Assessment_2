@@ -15,7 +15,7 @@ body{
     width      : 35%;
     margin-left: 65%;
     color      : white;
-    margin-top : 5px;
+    margin-top : 600px;
     font-family: Arial;
 }
 
@@ -33,7 +33,7 @@ body{
 
 #img1-1-draggable {
     position : absolute;
-    bottom   : 200px;
+    top      : 200px;
     right    : 400px;
     transform: scale(1);
 }
@@ -50,7 +50,7 @@ body{
 
 #img1-2-draggable {
     position : absolute;
-    bottom   : 400px;
+    top      : 400px;
     right    : 0px;
     transform: scale(1);
 }
@@ -67,7 +67,7 @@ body{
 
 #img1-3-draggable {
     position : absolute;
-    bottom   : 400px;
+    top      : 400px;
     right    : 400px;
     transform: scale(1);
 }
@@ -86,7 +86,7 @@ body{
 
 #img2-1-draggable {
     position : absolute;
-    bottom   : 200px;
+    top      : 200px;
     right    : 200px;
     transform: scale();
 }
@@ -103,7 +103,7 @@ body{
 
 #img2-2-draggable {
     position : absolute;
-    bottom   : 0px;
+    top      : 0px;
     right    : 400px;
     transform: scale(1);
 }
@@ -120,7 +120,7 @@ body{
 
 #img2-3-draggable {
     position : absolute;
-    bottom   : 200px;
+    top      : 200px;
     right    : 0px;
     transform: scale(1);
 }
@@ -139,7 +139,7 @@ body{
 
 #img3-1-draggable {
     position : absolute;
-    bottom   : 400px;
+    top      : 400px;
     right    : 200px;
     transform: scale(1);
 }
@@ -156,7 +156,7 @@ body{
 
 #img3-2-draggable {
     position : absolute;
-    bottom   : 0px;
+    top      : 0px;
     right    : 0px;
     transform: scale(1);
 }
@@ -173,7 +173,7 @@ body{
 
 #img3-3-draggable {
     position : absolute;
-    bottom   : 0px;
+    top      : 0px;
     right    : 200px;
     transform: scale(1);
 }
